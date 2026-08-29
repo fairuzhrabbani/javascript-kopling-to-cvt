@@ -46,13 +46,13 @@ const firstName = "Fairuz";
 const middleName = "Hanif";
 const lastName = "Rabbani";
 
-console.log(firstName + " " + middleName + " " + lastName); //lebih disarankan menggunakan Template Literal.
+console.log(firstName + " " + middleName + " " + lastName); //TIDAK DI SARANKAN.
 
-console.log(`Nama Saya adalah ${firstName} ${middleName} ${lastName}`); //lebih disarankan menggunakan Template Literal.
+console.log(`Nama Saya adalah ${firstName} ${middleName} ${lastName}`); //DISARANKAN menggunakan Template Literal.
 
 console.log(
   `Nama Saya adalah ${firstName} ${middleName} ${lastName}\nSaya berumur ${20 + 7} tahun\nTerimakasih`,
-); //lebih disarankan menggunakan Template Literal.
+); //DISARANKAN menggunakan Template Literal.
 
 // console.log()	      Menampilkan informasi
 // console.error()	    Menampilkan pesan error

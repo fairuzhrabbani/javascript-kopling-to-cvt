@@ -9,7 +9,7 @@ const login = true; //boolean
 
 const foto = null; //sengaja mengosongkan. keunikannya null di javascript adalah object
 
-let myName; //Belum pernah diisi. undefined
+let myName; //Belum pernah diisi hasilnya akan undefined
 
 const user = {
   nama: "Fairuz",

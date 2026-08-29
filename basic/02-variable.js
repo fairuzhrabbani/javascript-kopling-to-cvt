@@ -1,10 +1,10 @@
-/* 
-* Variable adalah tempat untuk menyimpan sebuah nilai agar bisa digunakan kembali.
-* Di javascript, variable bisa dibuat menggunakan kata kunci var, let, dan const.
-* - var     : variable yang bisa diubah nilainya dan bisa diakses dari luar blok (tidak disarankan).
-* - let     : variable yang bisa diubah nilainya dan hanya bisa diakses dari dalam blok.
-* - const   : variable yang tidak bisa diubah nilainya dan hanya bisa diakses dari dalam blok.
-*/
+/*
+ * Variable adalah tempat untuk menyimpan sebuah nilai agar bisa digunakan kembali.
+ * Di javascript, variable bisa dibuat menggunakan kata kunci var, let, dan const.
+ * - var     : variable yang bisa diubah nilainya dan bisa diakses dari luar blok (tidak disarankan).
+ * - let     : variable yang bisa diubah nilainya dan hanya bisa diakses dari dalam blok.
+ * - const   : variable yang tidak bisa diubah nilainya dan hanya bisa diakses dari dalam blok.
+ */
 
 // CONST
 const username = "admin";
@@ -23,18 +23,17 @@ saldo = saldo + 50000;
 // Jika menggunakan CONST maka akan error karena variable const tidak bisa diisi ulang.
 console.log(`Saldo Anda saat ini : Rp${saldo}`);
 
-// VAR - untuk var sudah jarang di gunakan 
-// var angka = 50;
-// console.log(angka);
+// VAR - untuk var sudah jarang di gunakan
+var angka = 50;
+console.log(angka);
 
-/* 
-* Aturan penamaan nama variable yang BENAR (gunakan camelCase)
-* - const username = "admin";
-* - const accessToken = "ABC123";
-* - const totalPrice = 50000;
-* - const myFirstName = "Fairuz";
-*/
-
+/*
+ * Aturan penamaan nama variable yang BENAR (gunakan camelCase)
+ * - const username = "admin";
+ * - const accessToken = "ABC123";
+ * - const totalPrice = 50000;
+ * - const myFirstName = "Fairuz";
+ */
 
 /* 
 ! Aturan penamaan nama variable yang SALAH
@@ -42,7 +41,6 @@ console.log(`Saldo Anda saat ini : Rp${saldo}`);
 ! - const access-token = "ABC123"; error karena nama variable tidak boleh menggunakan tanda strip (-)
 ! - const total price = 50000; error karena nama variable tidak boleh menggunakan spasi
 */
-
 
 /* 
 ? Keyword           = const	

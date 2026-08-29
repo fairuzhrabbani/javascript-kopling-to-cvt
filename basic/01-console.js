@@ -30,7 +30,6 @@ console.log({
 
 console.log([1, 2, 3, 4, 5]); //array
 
-
 /*
 * console.table() digunakan untuk menampilkan data dalam bentuk tabel. 
 * Data yang ditampilkan bisa berupa array atau object. 
@@ -47,16 +46,18 @@ const firstName = "Fairuz";
 const middleName = "Hanif";
 const lastName = "Rabbani";
 
-console.log(firstName + " " + middleName + " " + lastName); //lebih disarankan menggunakan Template Literal.
+console.log(firstName + " " + middleName + " " + lastName); //TIDAK DI SARANKAN.
 
-console.log(`Nama Saya adalah ${firstName} ${middleName} ${lastName}`); //lebih disarankan menggunakan Template Literal.
+console.log(`Nama Saya adalah ${firstName} ${middleName} ${lastName}`); //DISARANKAN menggunakan Template Literal.
 
-console.log(`Nama Saya adalah ${firstName} ${middleName} ${lastName}\nSaya berumur ${20 + 7} tahun\nTerimakasih`); //lebih disarankan menggunakan Template Literal.
+console.log(
+  `Nama Saya adalah ${firstName} ${middleName} ${lastName}\nSaya berumur ${20 + 7} tahun\nTerimakasih`,
+); //DISARANKAN menggunakan Template Literal.
 
-// console.log()	    Menampilkan informasi
+// console.log()	      Menampilkan informasi
 // console.error()	    Menampilkan pesan error
-// console.warn()	    Menampilkan peringatan
+// console.warn()	      Menampilkan peringatan
 // console.table()	    Menampilkan array/object dalam bentuk tabel
-// console.dir()	    Menampilkan struktur object
-// console.time()	    Memulai timer
-// console.timeEnd()	Mengakhiri timer dan menampilkan durasi
+// console.dir()	      Menampilkan struktur object
+// console.time()	      Memulai timer
+// console.timeEnd()	  Mengakhiri timer dan menampilkan durasi

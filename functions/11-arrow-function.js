@@ -65,7 +65,7 @@ function giveMeName(callback) {
   callback("Fairuz");
 }
 // Versi Arrow Function
-giveMeName(name => console.log(`Hello ${name}`));
+giveMeName((name) => console.log(`Hello ${name}`));
 
 // Versi Anonymous
 giveMeName(function (name) {

@@ -36,7 +36,7 @@ console.log(resultArrow);
 const haiBroFirst = (name) => console.log(`Hello, ${name}`);
 haiBroFirst("Ronaldo");
 
-const haiBroSecond = (name) => console.log(`Hello, ${name}`);
+const haiBroSecond = (name) => `Hello, ${name}`;
 haiBroSecond("Messi"); // tanpa tutup kurung pada paremeter karena hanya 1 parameter seperti ini bisa
 
 /*
@@ -65,7 +65,7 @@ function giveMeName(callback) {
   callback("Fairuz");
 }
 // Versi Arrow Function
-giveMeName(name => console.log(`Hello ${name}`));
+giveMeName((name) => console.log(`Hello ${name}`));
 
 // Versi Anonymous
 giveMeName(function (name) {
